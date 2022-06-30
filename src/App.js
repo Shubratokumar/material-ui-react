@@ -12,6 +12,7 @@ import FavoriteBorder from '@mui/icons-material/FavoriteBorder';
 import Favorite from '@mui/icons-material/Favorite';
 import Typography from '@mui/material/Typography';
 import { Container } from '@mui/material';
+import Navbar from './components/Navbar';
 
 
 
@@ -71,6 +72,7 @@ function App() {
   return (
     <div className="App">
       <Container maxWidth="lg">
+        <Navbar/>
         <ThemeProvider theme={theme}>      
           <header className='App-header'>
           <Typography variant="h3">
